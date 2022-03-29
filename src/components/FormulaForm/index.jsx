@@ -1,15 +1,15 @@
 import React from 'react';
 
 import Input from '../Input';
-// import useForm from './hook';
 import './styles.css';
 
 export default function FormulaForm({ fields, typeOfOperator }) {
-  // const { keyword } = useForm();
+  const references = fields.map(({ label }) => label);
 
   const handleSubmit = (evt) => {
     evt.preventDefault(); // Evitamos que recargue la pantalla, debido al form post
-    // console.log(`El keyword es ahora: ${keyword}`);
+    const values = references.map((label) => document.getElementById(label).value);
+    console.log({ values });
   };
 
   return (
