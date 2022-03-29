@@ -1,0 +1,18 @@
+.formula--link-container {
+  width: 100%;
+  background-color: #09f;
+  padding: 0.8rem 2rem;
+  border-radius: 9px;
+}
+
+.formula--link {
+  color: #fff;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  .formula--link:hover {
+    text-decoration: underline;
+  }
+}

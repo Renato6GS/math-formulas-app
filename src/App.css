@@ -1,0 +1,23 @@
+.App {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0rem;
+  flex-direction: column;
+}
+
+.app-header {
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.app--title {
+  cursor: pointer;
+}
+
+.app-content {
+  width: 100%;
+}
