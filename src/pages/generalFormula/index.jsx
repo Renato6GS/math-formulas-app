@@ -1,15 +1,14 @@
 import React from 'react';
 import FormulaForm from '../../components/FormulaForm';
-import './styles.css';
+import PageLayout from '../../components/PageLayout';
 
 export default function GeneralFormula() {
   return (
-    <section className='generalFormula--container'>
-      <h3>Ingrese los siguientes valores:</h3>
+    <PageLayout>
       <FormulaForm
         fields={[{ label: 'a', autofocus: true }, { label: 'b' }, { label: 'c' }]}
         typeOfOperation='generalFormulaOperation'
       />
-    </section>
+    </PageLayout>
   );
 }

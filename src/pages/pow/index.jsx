@@ -1,12 +1,11 @@
 import React from 'react';
 import FormulaForm from '../../components/FormulaForm';
-import './styles.css';
+import PageLayout from '../../components/PageLayout';
 
 export default function Pow() {
   return (
-    <section className='pow--container'>
-      <h3>Ingrese los siguientes valores:</h3>
+    <PageLayout>
       <FormulaForm fields={[{ label: 'Base', autofocus: true }, { label: 'Exponente' }]} typeOfOperation='pow' />
-    </section>
+    </PageLayout>
   );
 }

@@ -6,7 +6,6 @@ import './styles.css';
 
 export default function FormulaForm({ fields, typeOfOperation }) {
   const references = fields.map(({ label }) => label);
-  console.log({ references });
   const [result, setResult] = useState(0);
 
   const handleSubmit = (evt) => {
