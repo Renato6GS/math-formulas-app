@@ -4,7 +4,7 @@ import PageLayout from '../../components/PageLayout';
 
 export default function Factorial() {
   return (
-    <PageLayout>
+    <PageLayout title='Factorial'>
       <FormulaForm fields={[{ label: 'Número', autofocus: true }]} typeOfOperation='factorialOperation' />
     </PageLayout>
   );
