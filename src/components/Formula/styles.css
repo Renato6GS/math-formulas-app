@@ -3,12 +3,14 @@
   background-color: #09f;
   padding: 0.8rem 2rem;
   border-radius: 9px;
+  cursor: pointer;
 }
 
 .formula--link {
   color: #fff;
   font-size: 1.4rem;
   text-decoration: none;
+  cursor: pointer;
 }
 
 @media (hover: hover) {

@@ -11,7 +11,7 @@ export default function Input({ label, type = 'number', autofocus = false }) {
 
   return (
     <div className='input--container'>
-      <label className='input--label'>{`${label}: `}</label>
+      <label className='input--label' htmlFor={label}>{`${label}: `}</label>
       <input
         className='input--input'
         onChange={handleChange}

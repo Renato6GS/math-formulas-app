@@ -13,7 +13,6 @@ function App() {
     <div className='App'>
       <header className='app-header'>
         <Link to='/'>
-          {/* <h1 className='app--title'>Fórmulas matemáticas App</h1> */}
           <div className='app--container-logo'>
             <img className='app--logo' src={imageLogo} alt='' />
           </div>
