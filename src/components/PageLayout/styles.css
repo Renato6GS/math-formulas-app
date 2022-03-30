@@ -1,0 +1,11 @@
+.pageLayout--container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pageLayout--link {
+  color: #09c;
+  text-decoration: none;
+  font-style: italic;
+}
