@@ -7,10 +7,5 @@ export default function Factorial() {
     <PageLayout>
       <FormulaForm fields={[{ label: 'Número', autofocus: true }]} typeOfOperation='factorialOperation' />
     </PageLayout>
-    // <section className='factorial--container'>
-    //   <Link to='/' className='factorial--link'>Volver</Link>
-    //   <h3>Ingrese los siguientes valores:</h3>
-    //   <FormulaForm fields={[{ label: 'Número', autofocus: true }]} typeOfOperation='factorialOperation' />
-    // </section>
   );
 }
